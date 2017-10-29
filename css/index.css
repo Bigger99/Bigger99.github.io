@@ -135,8 +135,8 @@ li .nav:after{
 .content{
     height: 950px;
     background-image: url(/image/bg2.png);
-    background-size: cover;
-    background-position: 10px -200px;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: 0px;
     position: relative;
 }
@@ -209,44 +209,6 @@ li .nav:after{
     line-height: 24px;
     margin-right: -50px;
 }
-
-.vegetables{
-    
-}
-
-.sous{
-    position: absolute;
-    left:-170px;
-    top: 0px;
-    
-}
-
-.salad{
-    position: absolute;
-    right:-350px;
-    top: 0px;
-}
-
-.tomatos2{
-    position: absolute;
-    left:590px;
-    top:770px;
-    transform: rotate(30deg);
-    z-index: 1;
-}
-
-.cheese{
-   position: absolute;
-    left:1350px;
-    top:670px;
-}
-
-.tomato{
-    position: absolute;
-    left:1700px;
-    top:790px;
-}
-
 
 .peaple{
     height: 490px;
