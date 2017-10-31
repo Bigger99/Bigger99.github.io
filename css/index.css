@@ -2,6 +2,68 @@ body{
     width: 100%;
     height: 100%;
 }
+
+li{
+    list-style-type: none;
+}
+
+.li_2{
+    position: fixed;
+    top:50px;
+    right: 30px;
+}
+
+.points__list {
+  position: fixed;
+  top: 50px;
+  right: 30px; 
+}
+
+.points__link {
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: relative; 
+}
+  .points__link:after, .points__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%; 
+}
+  .points__link:after {
+    width: 6px;
+    height: 6px;
+    background: #fff; 
+}
+  .points__link:before {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    opacity: 0;
+    transition: .3s;
+}
+  .points__link:hover:before {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+}
+
+.points__item.active .points__link:before {
+  width: 14px;
+  height: 14px;
+  opacity: 1; 
+}
+
+.points__item {
+  margin-bottom: 5px; 
+}
+
+
 /* header */
 
 
@@ -135,10 +197,13 @@ li .nav:after{
 .content{
     height: 950px;
     background-image: url(/image/bg2.png);
-    background-size: contain;
+    background-size: 100% 950px;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
     margin-top: 0px;
     position: relative;
+    display: flex;
+    
 }
 
 .Best_Content{
@@ -150,12 +215,15 @@ li .nav:after{
     font-family: 'gagalinregular';
     font-size: 95px;
     margin-left: 363px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .sidebars{
-    margin-left: 90px;
-    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
 }
 
 .left-sidebar, .center-sidebar, .right-sidebar{
@@ -209,39 +277,59 @@ li .nav:after{
     line-height: 24px;
     margin-right: -50px;
 }
+/* comments */
+.comments{
+    display: flex;   
+}
+.comments2{
+    display: flex;   
+}
+
 
 .peaple{
-    height: 490px;
-    width: 635px;
-    display: inline-block;
-    margin-left: -10px;
+    max-height: 480px;
+    max-width: 700px;
+    min-height: 300px;
+    min-width: 150px;
     background-size: cover;
     background-repeat: no-repeat;
+    color:white;
+    
 }
 
-.peaple_1{
-    background-image: url(/image/hairGirl.png);
+.comment{
+    padding-top: 30px;
+    opacity: 0;
+    display: inline-table;
+    vertical-align: middle;
     
-    z-index: 3;
 }
-.peaple_2{
-    background-image: url(/image/glassesBoy.png);
+
+.comment:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.5); 
+    transition: 0.3s;
 }
-.peaple_3{
-    background-image: url(/image/beautifulGirl.png);
+
+.name{
+    display: flex;
+    align-items: center;
+    padding-top:10px;
+    padding-left: 50px;
 }
-.peaple_4{
-    background-image: url(/image/boyInCap.png);
+
+.comment_text{
+    padding:  50px;
+    padding-top: 15px;
 }
-.peaple_5{
-    background-image: url(/image/topHair.png);
+
+.backColor_comment{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    
 }
-.peaple_6{
-    background-image: url(/image/pirsingGirl.png);
-}
-.peaple_7{
-    background-image: url(/image/oldman.png);
-}
-.peaple_8{
-    background-image: url(/image/birdMan.png);
-}
+
+
