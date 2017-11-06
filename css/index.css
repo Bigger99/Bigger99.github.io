@@ -664,8 +664,8 @@ li {
       height: 25%; } }
   @media screen and (max-width: 480px) {
     .comment-list-item {
-      width: 25%;
-      height: 50%; } }
+      width: 50%;
+      height: 25%; } }
 
 .comment-list-item_name {
   padding-bottom: 10px;
