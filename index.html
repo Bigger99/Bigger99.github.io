@@ -8,154 +8,278 @@
     <link rel="stylesheet" href="/normalize/normalize.css">
 </head>
 <body>
+   
+    
+   
     <div class="wrapper">
-      <div class="header">
-                 <div class="conteiner">
-                  <div class="header-top">
-                      <div class="header-logo">
-                          <a href="#" class="logo"><img src="/image/logo.png" height="80" width="100" alt="Логотип" class="logo-img"></a>
-                      </div>
-                      <div class="nav-block">
-                          <ul>
-                              <li class="nav-li"><a href="#" class="nav-a">О нас</a></li>
-                              <li class="nav-li"><a href="#" class="nav-a">Бургеры</a></li>
-                              <li class="nav-li"><a href="#" class="nav-a">Команда</a></li>
-                              <li class="nav-li"><a href="#" class="nav-a">Меню</a></li>
-                              <li class="nav-li"><a href="#" class="nav-a">Отзывы</a></li>
-                              <li class="nav-li"><a href="#" class="nav-a">Контакты</a></li>
-                          </ul>
-
-                      </div>
-                      <div class="header-btn"><a href="#" class="order-link">Заказать</a></div>
-                  </div>
-
-                  <div class="header-content">
-                      <div class="left-content">
-                          <div class="burger">
-                              <img src="/image/burger.png" alt="">
+       
+       
+       
+        <section class="header">
+          <div class="conteiner section">
+              
+            <div class="header-top">
+                <div class="logo">
+                    <img src="/image/logo.png" alt="Логотип" height="80" width="100">
+                </div>
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li class="nav-items"><a href="#" class="nav-link">о нас</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">бургеры</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">команда</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">меню</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">отзывы</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">контакты</a></li>
+                    </ul>
+                    <div class="header-top-end">
+                    <button class="order" type="button"><a href="#" class="nav-link_order">Заказыть</a></button>
+                    <div class="burger-menu">
+                        <div class="burger-beef"></div>
+                        <div class="burger-beef"></div>
+                        <div class="burger-beef"></div>
+                    </div>
+                    </div>
+                </nav>    
+            </div>
+            <div class="header-content">
+                <div class="burger">
+                    <img src="/image/burger.png" alt="Бургер" class="img-burger">
+                </div>
+                <div class="header-content_text">
+                    <div class="text-yellow">Мы делаем</div>
+                    <div class="text-white">натуральные бургеры</div>
+                </div>
+            </div>
+            
+            <div class="down">
+                <svg class="down-icon">
+                    <use xlink:href="/image/svgPic/arrow-scroll.svg"></use>
+                </svg>
+            </div>
+           
+          </div>
+        </section>
+        
+        <section class="best">
+           <div class="conteiner section">
+               <div class="best-title">МЫ лучшие</div>
+               <div class="best-sidebars">
+                   <div class="left-sidebar">
+                       <div class="left-sidebar_foto"><img src="/image/meat.png" alt="" height="90" width="100"></div>
+                       <div class="sidebar-content">
+                       <div class="left-sidebar_title">100% свежее мясо</div>
+                       <div class="left-sidebar_text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.</div>
+                   </div>
+                   </div>
+                   <div class="center-sidebar">
+                       <div class="center-sidebar_foto"><img src="/image/hand.png" alt="" height="90" width="80"></div>
+                       <div class="sidebar-content">
+                       <div class="center-sidebar_title">Ручная сборка</div>
+                       <div class="center-sidebar_text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.</div>
+                       </div>
+                   </div>
+                   <div class="right-sidebar">
+                       <div class="right-sidebar_foto"><img src="/image/list.png" alt="" height="80" width="85"></div>
+                       <div class="sidebar-content">
+                       <div class="right-sidebar_title">Натуральные ингредиенты</div>
+                       <div class="right-sidebar_text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.</div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </section>
+        
+        <section class="team">
+            <div class="conteiner section">
+               <div class="team_wrapper">
+                <div class="team-title">Команда</div>
+                <div class="team-content">
+                    <ul class="team-list">
+                        <li class="team-list-item">
+                            <div class="team-list-item_name"> Дэниел Рэдклиф</div>
+                            <div class="team-list-item-content">
+                                <div class="team-list-item-content_foto" style="background-image: url(/image/bg3/aphex.png)"></div>
+                                <div class="team-info">
+                                <div class="team-list-item-content_position">Оператор</div>
+                                <div class="team-list-item-content_text">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-list-item_name">Ричард Джеймс</div>
+                               <div class="team-list-item-content">
+                                <div class="team-list-item-content_foto" style="background-image: url(/image/bg3/aphex.png)"></div>
+                                <div class="team-info">
+                                <div class="team-list-item-content_position">Оператор</div>
+                                <div class="team-list-item-content_text">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                                </div>
+                                </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-list-item_name">Джейк финн</div>
+                               <div class="team-list-item-content">
+                                <div class="team-list-item-content_foto" style="background-image: url(/image/bg3/aphex.png)"></div>
+                                <div class="team-info">
+                                <div class="team-list-item-content_position">Оператор</div>
+                                <div class="team-list-item-content_text">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                                </div>
+                                </div>
+                        </li>
+                        <li class="team-list-item">
+                            <div class="team-list-item_name">Николай Иванов</div>
+                               <div class="team-list-item-content">
+                                <div class="team-list-item-content_foto" style="background-image: url(/image/bg3/aphex.png)"></div>
+                                <div class="team-info">
+                                <div class="team-list-item-content_position">Оператор</div>
+                                <div class="team-list-item-content_text">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+                                </div>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <section class="menu">
+            <div class="conteiner section">
+               <div class="menu-wrapper">
+                <div class="menu-title">меню</div>
+                <div class="menu-choise">
+                    <div class="menu-meat">
+                        <div class="menu-diet_title">для мясоедов</div>
+                    </div>
+                    <div class="menu-vegeterian">
+                        <div class="menu-diet_title">вегетарианское</div>
+                    </div>
+                    <div class="menu-diet">
+                        <div class="menu-diet_title">диетическое</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <section class="comment">
+        <ul class="comment-list">
+            <li class="comment-list-item" style="background-image: url(/image/hairGirl.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+               </div>
+            </li>
+            <li class="comment-list-item" style="background-image: url(/image/glassesBoy.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+                </div>
+            </li>
+            <li class="comment-list-item" style="background-image: url(/image/beautifulGirl.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+                </div>
+            </li>
+            <li class="comment-list-item" style="background-image: url(/image/boyInCap.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+                   </div>
+            </li>
+            <li class="comment-list-item" style="background-image: url(/image/topHair.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+                   </div>
+            </li>
+            <li class="comment-list-item" style="background-image: url(/image/pirsingGirl.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+                </div>
+            </li>
+            <li class="comment-list-item" style="background-image: url(/image/oldman.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+                </div>
+            </li>
+            <li class="comment-list-item" style="background-image: url(/image/birdMan.png);">
+               <div class="comment-hover">
+                <div class="comment-list-item_name">Константин Спилбкрг</div>
+                <div class="comment-list-item_tetx">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero, commodi minima beatae corporis temporibus quaerat, eaque in veniam cum.</div>
+                <div class="comment-list-item_more">Подробнее</div>
+                   </div>
+            </li>
+        </ul>
+    </section>
+       
+       <section class="home_go">
+           <div class="conteiner section bg-go-home">
+              <div class="home_go-wrapper">
+                  <div class="home_go-title">закажите доставку</div>
+                  
+                  <div class="form">
+                  <form class="home_go-data">
+                      <div class="form-content">
+                          <div class="form-row">
+                              <label class="form_block">
+                                  <div class="form_block_title">Имя</div>
+                                  <input type="text" class="form-input">
+                              </label>
+                              <label class="form_block">
+                                  <div class="form_block_title">Телефон</div>
+                                  <input type="text" class="form-input">
+                              </label>
+                          </div>
+                          <div class="form-row">
+                              <label class="form_block">
+                                  <div class="form_block_title">Улица</div>
+                                  <input type="text" class="form-input">
+                              </label>
+                          </div>
+                          <div class="form-row">
+                              <label class="form_block">
+                                  <div class="form_block_title">Дом</div>
+                                  <input type="text" class="form-input">
+                              </label>
+                              <label class="form_block">
+                                  <div class="form_block_title">Корпус</div>
+                                  <input type="text" class="form-input">
+                              </label>
+                              <label class="form_block">
+                                  <div class="form_block_title">Квартира</div>
+                                  <input type="text" class="form-input">
+                              </label>
+                              <label class="form_block">
+                                  <div class="form_block_title">Этаж</div>
+                                  <input type="text" class="form-input">
+                              </label>
                           </div>
                       </div>
-                      <div class="right-content">
-                          <div class="text-yellow">Мы делаем</div>
-                          <div class="text-white">натуральные бургеры</div>
-                      </div>
+                  
+                  
+                  </form>
                   </div>
-                    </div>
               </div>
-        <div class="content">
-            <div class="conteiner">
-                <div class="content-head">Мы лучшие</div>
-                <div class="content-sidebars">
-                    <div class="left-sidebar">
-                        <div class="left-sidebar_foto"><img src="/image/meat.png" alt="" height="90" width="100"></div>
-                        <div class="left-sidebar_name">100% свежее мясо</div>
-                        <div class="left-sidebar_text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.</div>
-                    </div>
-                    <div class="center-sidebar">
-                        <div class="left-sidebar_foto"><img src="/image/hand.png" alt="" height="90" width="80"></div>
-                        <div class="left-sidebar_name">Ручная  сборка</div>
-                        <div class="left-sidebar_text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.</div>
-                    </div>
-                    <div class="right-sidebar">
-                        <div class="left-sidebar_foto"><img src="/image/list.png" alt="" height="80" width="85"></div>
-                        <div class="left-sidebar_name">Натуральные
-                        ингредиенты</div>
-                        <div class="left-sidebar_text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.</div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="comments">
-            <div class="peaple peaple_1" style="background-image: url(/image/hairGirl.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo mollitia, perferendis voluptatem. Explicabo at placeat consequuntur ipsam ut incidunt dignissimos veritatis accusamus itaque? Eveniet culpa et animi eos sit minima.</div>
-                    <div class="more"><a href="#" class="more_text">Подробнее</a></div>
-                </div>
-                </div>
-            </div>
-            <div class="peaple peaple_2" style="background-image: url(/image/glassesBoy.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, doloribus laudantium facere, quis quidem accusantium unde soluta. A ipsa dolore sed, velit est reprehenderit, odio quia mollitia expedita. Odit, in.</div>
-                    <div class="more"><a href="#" class="more_text">Подробнее</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="peaple peaple_3" style="background-image: url(/image/beautifulGirl.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quas sequi corporis, ex ea reiciendis dolores ducimus itaque, laudantium. Accusantium quia obcaecati nemo quibusdam quod unde inventore maiores velit amet!
-                    </div>
-                    <div class="more"><a href="#" class="more_text">Подробнее</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="peaple peaple_4" style="background-image: url(/image/boyInCap.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam consequuntur iste quisquam, aspernatur laboriosam adipisci. Eveniet aspernatur ut labore mollitia ab eaque necessitatibus dolorem blanditiis, nobis maxime corporis unde quibusdam.</div>
-                    <div class="more"><a href="#" class="more_text more_text_last">Подробнее</a></div>
-                </div>
-                
-                </div>
-            </div>
-
-        </div>
-
-        <div class="comments2">
-
-            <div class="peaple peaple_1" style="background-image: url(/image/topHair.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo mollitia, perferendis voluptatem. Explicabo at placeat consequuntur ipsam ut incidunt dignissimos veritatis accusamus itaque? Eveniet culpa et animi eos sit minima.</div>
-                       <div class="more"><a href="#" class="more_text">Подробнее</a></div>
-                </div>
-                </div>
-            </div>
-            <div class="peaple peaple_2" style="background-image: url(/image/pirsingGirl.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, doloribus laudantium facere, quis quidem accusantium unde soluta. A ipsa dolore sed, velit est reprehenderit, odio quia mollitia expedita. Odit, in.</div>
-                    <div class="more"><a href="#" class="more_text">Подробнее</a></div>
-                </div>
-                </div>
-            </div>
-            <div class="peaple peaple_3" style="background-image: url(/image/oldman.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quas sequi corporis, ex ea reiciendis dolores ducimus itaque, laudantium. Accusantium quia obcaecati nemo quibusdam quod unde inventore maiores velit amet!</div>
-                    <div class="more"><a href="#" class="more_text">Подробнее</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="peaple peaple_4" style="background-image: url(/image/birdMan.png);">
-                <div class="backColor_comment">
-                   <div class="comment">
-                    <div class="name">Константин Спилберг</div>
-                    <div class="comment_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam consequuntur iste quisquam, aspernatur laboriosam adipisci. Eveniet aspernatur ut labore mollitia ab eaque necessitatibus dolorem blanditiis, nobis maxime corporis unde quibusdam.</div>
-                       <div class="more"><a href="#" class="more_text">Подробнее</a></div>
-                </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="footer">
-            <div class="conteiner"></div>
-        </div>
-    </div>
-
+               
+           </div>
+       </section>
+        
+        <!--<section class="dark_beff"><div class="conteiner section"></div></section>
+        
+        <section class="map"><div class="conteiner section"></div></section>
+        
+        <section class="footer"><div class="conteiner section"></div></section> -->
+        
+    </div>  
     <div class="points__list">
                     <ul>
                         <li class="points__item"><a href="#" class="points__link"></a></li>
@@ -167,7 +291,6 @@
                         <li class="points__item"><a href="#" class="points__link"></a></li>
                         <li class="points__item"><a href="#" class="points__link"></a></li>
                     </ul>
-                </div>
-
+    </div>  
 </body>
 </html>

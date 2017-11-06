@@ -27,10 +27,10 @@
 
 
 @font-face {
-    font-family: 'ubuntubold';
+    font-family: 'ubuntu';
     src: url('ubuntu-b-webfont.woff2') format('woff2'),
          url('ubuntu-b-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 
 }
@@ -39,10 +39,10 @@
 
 
 @font-face {
-    font-family: 'ubuntulight';
+    font-family: 'ubuntu';
     src: url('ubuntu-light-webfont.woff2') format('woff2'),
          url('ubuntu-light-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -51,10 +51,10 @@
 
 
 @font-face {
-    font-family: 'ubuntumedium';
+    font-family: 'ubuntu';
     src: url('ubuntu-medium-webfont.woff2') format('woff2'),
          url('ubuntu-medium-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 
 }
@@ -63,7 +63,7 @@
 
 
 @font-face {
-    font-family: 'ubunturegular';
+    font-family: 'ubuntu';
     src: url('ubuntu-regular-webfont.woff2') format('woff2'),
          url('ubuntu-regular-webfont.woff') format('woff');
     font-weight: normal;
